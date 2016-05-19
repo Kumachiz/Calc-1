@@ -1,7 +1,11 @@
 $(function (){
   $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
+    $("#walrus-showing").slideToggle();
     $("#walrus-hidden").toggle();
+  });
+  $(".clickable2").click(function() {
+    $("#initially-hidden").fadeToggle();
+    $("#initially-showing").toggle();
   });
   $("#calculator").click(function() {
     var add = function(number1, number2) {

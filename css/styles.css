@@ -2,6 +2,10 @@
   display: none;
 }
 
+#initially-hidden {
+  display: none;
+}
+
 .clickable {
   color: blue;
   cursor: pointer;
@@ -11,6 +15,15 @@
   text-decoration: underline;
 }
 
-.walrus {
+img {
   width: 250px;
+}
+
+.clickable2 {
+  color: blue;
+  cursor: pointer;
+}
+
+.clickable2:hover {
+  text-decoration: underline;
 }
