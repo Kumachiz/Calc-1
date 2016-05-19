@@ -27,3 +27,15 @@ img {
 .clickable2:hover {
   text-decoration: underline;
 }
+.red-background{
+  color: black;
+  background-color: red;
+}
+.yellow-background{
+  color: red;
+  background-color: yellow;
+}
+.green-background{
+  color: yellow;
+  background-color: green;
+}
